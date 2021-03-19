@@ -1,0 +1,47 @@
+ {% load static %}
+    .btn-like {
+        display: inline-block;
+        width: 24px;
+        height: 22px;
+        background:url('.../imgs/background01.png') no-repeat -52px -261px;
+        text-indent: -9999px;
+        margin: 5px;
+        overflow: hidden;
+        border: none;
+      }
+
+      .btn-like.active {
+        display: inline-block;
+        width: 24px;
+        height: 22px;
+        background:url({% static 'imgs/background01.png' %});
+        background-position: -26px -261px;
+        text-indent: -9999px;
+        margin: 5px;
+        overflow: hidden;
+        border: none;
+      }
+
+      .btn-favorite {
+        display: inline-block;
+        width: 19px;
+        height: 24px;
+        background:url({% static 'imgs/background01.png' %});
+        background-position: -237px -286px;
+        text-indent: -9999px;
+        margin: 5px;
+        overflow: hidden;
+        border: none;
+      }
+
+      .btn-favorite.active {
+        display: inline-block;
+        width: 19px;
+        height: 24px;
+        background:url({% static 'imgs/background01.png' %});
+        background-position: -159px -286px;
+        text-indent: -9999px;
+        margin: 5px;
+        overflow: hidden;
+        border: none;
+      }
